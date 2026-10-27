@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-midnight: #09090F;
+    --surface-charcoal: #12121C;
+    --surface-elevated: #181826;
+    --border-fine: #292938;
+    --border-light: #37374a;
+    --violet-accent: #8B5CF6;
+    --lavender-highlight: #B9A0FF;
+    --cyan-activity: #06B6D4;
+  }
+
+  body {
+    background-color: #09090F;
+    color: #F1F5F9;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  .font-mono-data {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom DAW Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #292938;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #37374a;
+}
+
+/* Subtle Violet Glow utilities */
+.glow-violet-sm {
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.15);
+}
+
+.glow-violet-md {
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.25);
+}
+
+.border-glow-violet {
+  border-color: #8B5CF6;
+  box-shadow: 0 0 12px rgba(139, 92, 246, 0.3);
+}
+
+/* Glassmorphism & Surface utilities */
+.bg-charcoal-surface {
+  background-color: #12121C;
+}
+
+.bg-charcoal-elevated {
+  background-color: #181826;
+}
+
+.border-fine {
+  border-color: #292938;
+}

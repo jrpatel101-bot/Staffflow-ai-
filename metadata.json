@@ -1,0 +1,8 @@
+{
+  "name": "StaffFlow AI — Music Transcription & DAW Studio",
+  "description": "Ultra-premium AI music transcription SaaS that converts audio into editable sheet music, MIDI, and musical notation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
